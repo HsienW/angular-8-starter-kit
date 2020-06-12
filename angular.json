@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-starter": {
+    "angular-8-starter-kit": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-starter:build"
+            "browserTarget": "angular-8-starter-kit:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-starter:build:production"
+              "browserTarget": "angular-8-starter-kit:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-starter:build"
+            "browserTarget": "angular-8-starter-kit:build"
           }
         },
         "test": {
@@ -112,15 +112,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-starter:serve"
+            "devServerTarget": "angular-8-starter-kit:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-starter:serve:production"
+              "devServerTarget": "angular-8-starter-kit:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "angular-starter"
+  "defaultProject": "angular-8-starter-kit"
 }
